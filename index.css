@@ -1,0 +1,161 @@
+.login-footer{
+    background-color: #00304b !important;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.login-links a {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4F5559;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.login-links a:hover {
+  color: #00304b;
+  text-decoration: none;
+}
+
+.web-link {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #e1e1e1;
+    font-size: 12px;
+    transition: color 0.2s ease;
+    border-right: 2px solid #e1e1e1;
+    padding-right: 14px;
+}
+
+.web-link:hover {
+  color: #00304b;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 990px) {
+  .login-form {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 989px) {
+  .login-form {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  img.logo-clicktofarm {
+    width: 750px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  img.logo-clicktofarm {
+    width: 450px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  img.logo-clicktofarm {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  img.logo-clicktofarm {
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 400px) and (min-height: 800px) {
+  img.logo-clicktofarm {
+    width: 375px !important;  /* responsive to screen width */
+  }
+}
+
+@media (max-width: 320px) and (max-height: 480px) {
+  img.logo-clicktofarm {
+    width: 175px !important;  /* responsive to screen width */
+  }
+}
+
+
+@media (min-width: 768px) {
+  img.logo-mg2mix{
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  img.logo-mg2mix{
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  img.logo-mg2mix {
+    width: 100px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  img.logo-mg2mix {
+    width: 65px !important;
+  }
+}
+
+@media (max-width: 400px), (min-height: 800px) {
+  img.logo-mg2mix {
+    width: 150px !important;  /* responsive to screen width */
+  }
+}
+
+@media (max-width: 320px), (max-height: 480px) {
+  img.logo-mg2mix {
+    width: 65px !important;  /* responsive to screen width */
+  }
+}
+
+
+@media (min-width: 768px) {
+  img.logo-header{
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  img.logo-header{
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  img.logo-header {
+    width: 100px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  img.logo-header {
+    width: 10px !important;
+  }
+}
+
+.social-icon {
+  font-size: 1.5rem; /* same size for all */
+  line-height: 1;    /* remove extra space */
+  vertical-align: middle; /* aligns with text */
+}
